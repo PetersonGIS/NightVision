@@ -19,10 +19,6 @@
     "bonn_osm": {
       "type": "vector",
       "url": "http://tegola.cfapps.io/capabilities/bonn_osm.json"
-    },
-    "mapbox": {
-      "type": "raster",
-      "url": "mapbox://mapbox.satellite"
     }
   },
   "glyphs": "https://fonts.openmaptiles.org/{fontstack}/{range}.pbf",
@@ -35,17 +31,6 @@
       },
       "paint": {
         "background-color": "rgba(51, 51, 51, 1)"
-      }
-    },
-    {
-      "id": "satellite",
-      "type": "raster",
-      "source": "mapbox",
-      "layout": {
-        "visibility": "none"
-      },
-      "paint": {
-        "raster-opacity": 0.5
       }
     },
     {
