@@ -42,7 +42,7 @@
       "type": "raster",
       "source": "mapbox",
       "layout": {
-        "visibility": "visible"
+        "visibility": "none"
       },
       "paint": {
         "raster-opacity": 0.5
