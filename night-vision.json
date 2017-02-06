@@ -74,40 +74,6 @@
       }
     },
     {
-      "id": "building_3d",
-      "type": "fill-extrusion",
-      "source": "bonn_osm",
-      "source-layer": "building",
-      "minzoom": 0,
-      "maxzoom": 24,
-      "filter": [
-        "all"
-      ],
-      "layout": {
-        "visibility": "none"
-      },
-      "paint": {
-        "fill-extrusion-color": "rgba(218, 218, 5, 1)",
-        "fill-extrusion-height": {
-          "property": "height",
-          "type": "identity"
-        },
-        "fill-extrusion-base": {
-          "stops": [
-            [
-              13,
-              5
-            ],
-            [
-              20,
-              10
-            ]
-          ]
-        },
-        "fill-extrusion-opacity": 0.8
-      }
-    },
-    {
       "id": "road_minor",
       "type": "line",
       "source": "bonn_osm",
