@@ -1,7 +1,7 @@
 # NightVision [![License](https://img.shields.io/badge/License-BSD%202--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)
 This is a map style that uses a publically available [Tegola](https://github.com/terranodo/tegola) extract for Bonn, Germany. It is currently still under development and is primarily styled using [Maputnik](https://github.com/maputnik/editor).
 
-<img align="right" alt="TegolaCamoStyle" src="logo.png" />
+<img align="right" alt="TegolaNightVision" src="logo.png" />
 
 ## Viewing the map in the browser
 - [Rendered with OpenLayers:](http://htmlpreview.github.io/?https://github.com/PetersonGIS/CamoStyle/blob/master/live-map.html)
