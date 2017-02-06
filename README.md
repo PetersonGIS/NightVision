@@ -4,7 +4,7 @@ This is a map style that uses a publically available [Tegola](https://github.com
 <img align="right" alt="TegolaNightVision" src="logo.png" />
 
 ## Viewing the map in the browser
-- [Rendered with OpenLayers:](http://htmlpreview.github.io/?https://github.com/PetersonGIS/CamoStyle/blob/master/live-map.html)
+- [Rendered with OpenLayers:](http://htmlpreview.github.io/?https://github.com/PetersonGIS/NightVision/blob/master/live-map.html)
 Note that the water texture, road labels and tilt functionality are missing from this map, which displays the night-vision.json style.
 - [Rendered with Mapbox:](http://www.gretchenpeterson.com/live-map-mapbox-night-vision.html) 
   Note that the water texture, road labels, and tilt are working in this map, which displays the night-vision3d.json style. Test the tilt (pitch)   functionality by holding ctrl while clicking and dragging. The building extrusions are not yet functional on mobile devices.
