@@ -411,9 +411,13 @@
     {
       "id": "label_road",
       "type": "symbol",
-      "source": "bonn_osm",
-      "source-layer": "road",
+      "source": "tegola-osm",
+      "source-layer": "roads_14-20",
+      "minzoom": 14,
       "maxzoom": 24,
+      "filter": [
+        "all"
+      ],
       "layout": {
         "text-field": "{name}",
         "text-font": [
@@ -422,14 +426,6 @@
         "symbol-placement": "line",
         "text-size": {
           "stops": [
-            [
-              6,
-              0
-            ],
-            [
-              13,
-              0
-            ],
             [
               14,
               8
@@ -445,7 +441,10 @@
         "text-line-height": 1.2,
         "visibility": "visible",
         "text-ignore-placement": false,
-        "text-allow-overlap": false
+        "text-allow-overlap": false,
+        "symbol-spacing": 500,
+        "text-pitch-alignment": "auto",
+        "text-rotation-alignment": "auto"
       },
       "paint": {
         "text-halo-color": "rgba(141, 195, 31, 1)",
