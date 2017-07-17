@@ -38,10 +38,35 @@
       }
     },
     {
-      "id": "lake",
+      "id": "waterareas",
       "type": "fill",
-      "source": "bonn_osm",
-      "source-layer": "lakes",
+      "source": "tegola-osm",
+      "source-layer": "waterareas",
+      "layout": {
+        "visibility": "visible"
+      },
+      "paint": {
+        "fill-color": "rgba(28, 31, 28, 0.75)"
+      }
+    },
+    {
+      "id": "waterareas_gen1",
+      "type": "fill",
+      "source": "tegola-osm",
+      "source-layer": "waterareas_gen1",
+      "layout": {
+        "visibility": "visible"
+      },
+      "paint": {
+        "fill-color": "rgba(28, 31, 28, 0.75)"
+      }
+    },
+    {
+      "id": "waterareas_gen0",
+      "type": "fill",
+      "source": "tegola-osm",
+      "source-layer": "waterareas_gen0",
+      "minzoom": 0,
       "layout": {
         "visibility": "visible"
       },
@@ -703,7 +728,7 @@
           "type": "identity"
         },
         "fill-extrusion-base": 0,
-        "fill-extrusion-opacity": 0.8
+        "fill-extrusion-opacity": 0.9
       }
     }
   ],
