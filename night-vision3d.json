@@ -483,11 +483,88 @@
     {
       "id": "farm_line",
       "type": "line",
-      "source": "bonn_osm",
-      "source-layer": "farms",
+      "source": "tegola-osm",
+      "source-layer": "landusages",
+      "filter": [
+        "all",
+        [
+          "in",
+          "type",
+          "farm",
+          "farmland",
+          "allotments",
+          "orchard",
+          "garden"
+        ]
+      ],
+      "layout": {
+        "visibility": "visible"
+      },
       "paint": {
         "line-color": "rgba(143, 189, 111, 1)",
         "line-width": 3,
+        "line-offset": 0,
+        "line-blur": 2
+      }
+    },
+    {
+      "id": "farm_line_gen1_12",
+      "type": "line",
+      "source": "tegola-osm",
+      "source-layer": "landusages_gen1",
+      "minzoom": 12,
+      "maxzoom": 13,
+      "filter": [
+        "all",
+        [
+          "in",
+          "type",
+          "farm",
+          "farmland"
+        ],
+        [
+          ">",
+          "area",
+          100000
+        ]
+      ],
+      "layout": {
+        "visibility": "visible"
+      },
+      "paint": {
+        "line-color": "rgba(143, 189, 111, 1)",
+        "line-width": 2,
+        "line-offset": 0,
+        "line-blur": 2
+      }
+    },
+    {
+      "id": "farm_line_gen1",
+      "type": "line",
+      "source": "tegola-osm",
+      "source-layer": "landusages_gen1",
+      "minzoom": 0,
+      "maxzoom": 12,
+      "filter": [
+        "all",
+        [
+          "in",
+          "type",
+          "farm",
+          "farmland"
+        ],
+        [
+          ">",
+          "area",
+          1000000
+        ]
+      ],
+      "layout": {
+        "visibility": "visible"
+      },
+      "paint": {
+        "line-color": "rgba(143, 189, 111, 1)",
+        "line-width": 2,
         "line-offset": 0,
         "line-blur": 2
       }
