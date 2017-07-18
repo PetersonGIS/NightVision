@@ -570,66 +570,139 @@
       }
     },
     {
-      "id": "medical",
+      "id": "landusages",
       "type": "fill",
-      "source": "bonn_osm",
-      "source-layer": "medical_polygon",
-      "filter": [
-        "all"
-      ],
+      "source": "tegola-osm",
+      "source-layer": "landusages",
       "layout": {
-        "visibility": "none"
+        "visibility": "visible"
       },
       "paint": {
-        "fill-color": "rgba(189, 67, 67, 0.2)",
-        "fill-outline-color": "rgba(218, 208, 208, 0.17)"
+        "fill-color": {
+          "property": "type",
+          "type": "categorical",
+          "stops": [
+            [
+              "",
+              "rgba(202, 57, 57, 0)"
+            ],
+            [
+              "hospital",
+              "rgba(189, 67, 67, 0.2)"
+            ],
+            [
+              "school",
+              "rgba(120, 39, 31, 0.16)"
+            ],
+            [
+              "college",
+              "rgba(120, 39, 31, 0.16)"
+            ],
+            [
+              "education",
+              "rgba(120, 39, 31, 0.16)"
+            ],
+            [
+              "university",
+              "rgba(120, 39, 31, 0.16)"
+            ],
+            [
+              "military",
+              "rgba(255, 255, 255, 0)"
+            ]
+          ]
+        }
       }
     },
     {
-      "id": "school",
-      "type": "fill",
-      "source": "bonn_osm",
-      "source-layer": "schools_polygon",
-      "filter": [
-        "all"
-      ],
-      "layout": {
-        "visibility": "none"
-      },
-      "paint": {
-        "fill-color": "rgba(120, 39, 31, 0.16)",
-        "fill-outline-color": "rgba(113, 112, 144, 0.36)"
-      }
-    },
-    {
-      "id": "military_fill",
-      "type": "fill",
-      "source": "bonn_osm",
-      "source-layer": "military",
-      "minzoom": 0,
-      "layout": {
-        "visibility": "none"
-      },
-      "paint": {
-        "fill-color": "rgba(255, 255, 255, 0)",
-        "fill-outline-color": "rgba(241, 8, 8, 1)"
-      }
-    },
-    {
-      "id": "military_line",
+      "id": "landusages_lines",
       "type": "line",
-      "source": "bonn_osm",
-      "source-layer": "military",
-      "maxzoom": 24,
+      "source": "tegola-osm",
+      "source-layer": "landusages",
+      "layout": {
+        "visibility": "visible"
+      },
       "paint": {
-        "line-color": "rgba(220, 24, 12, 1)",
-        "line-width": 4,
-        "line-offset": 0,
-        "line-blur": 2,
-        "line-dasharray": [
-          3,
-          1
-        ]
+        "line-color": {
+          "property": "type",
+          "type": "categorical",
+          "stops": [
+            [
+              "",
+              "rgba(202, 57, 57, 0)"
+            ],
+            [
+              "hospital",
+              "rgba(218, 208, 208, 0.17)"
+            ],
+            [
+              "school",
+              "rgba(113, 112, 144, 0.36)"
+            ],
+            [
+              "college",
+              "rgba(113, 112, 144, 0.36)"
+            ],
+            [
+              "education",
+              "rgba(113, 112, 144, 0.36)"
+            ],
+            [
+              "university",
+              "rgba(113, 112, 144, 0.36)"
+            ],
+            [
+              "military",
+              "rgba(220, 24, 12, 1)"
+            ]
+          ]
+        },
+        "line-width": 1
+      }
+    },
+    {
+      "id": "landusages_gen0",
+      "type": "fill",
+      "source": "tegola-osm",
+      "source-layer": "landusages_gen0",
+      "layout": {
+        "visibility": "visible"
+      },
+      "paint": {
+        "fill-color": {
+          "property": "type",
+          "type": "categorical",
+          "stops": [
+            [
+              "",
+              "rgba(202, 57, 57, 0)"
+            ],
+            [
+              "hospital",
+              "rgba(189, 67, 67, 0.2)"
+            ],
+            [
+              "school",
+              "rgba(120, 39, 31, 0.16)"
+            ],
+            [
+              "college",
+              "rgba(120, 39, 31, 0.16)"
+            ],
+            [
+              "education",
+              "rgba(120, 39, 31, 0.16)"
+            ],
+            [
+              "university",
+              "rgba(120, 39, 31, 0.16)"
+            ],
+            [
+              "military",
+              "rgba(255, 255, 255, 0)"
+            ]
+          ]
+        }
       }
     },
     {
