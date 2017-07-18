@@ -19,10 +19,6 @@
     "tegola-osm": {
       "type": "vector",
       "url": "http://tegola-cdn.terranodo.io/capabilities/osm.json?debug=true"
-    },
-    "mapbox": {
-      "type": "raster",
-      "url": "mapbox://mapbox.satellite"
     }
   },
   "glyphs": "https://fonts.openmaptiles.org/{fontstack}/{range}.pbf",
