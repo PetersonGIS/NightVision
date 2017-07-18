@@ -661,10 +661,10 @@
       }
     },
     {
-      "id": "landusages_gen0",
+      "id": "landusages_gen1",
       "type": "fill",
       "source": "tegola-osm",
-      "source-layer": "landusages_gen0",
+      "source-layer": "landusages_gen1",
       "layout": {
         "visibility": "visible"
       },
