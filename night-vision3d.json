@@ -38,11 +38,6 @@
       }
     },
     {
-      "id": "satellite",
-      "type": "raster",
-      "source": "mapbox"
-    },
-    {
       "id": "waterareas",
       "type": "fill",
       "source": "tegola-osm",
