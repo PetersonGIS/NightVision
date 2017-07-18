@@ -493,32 +493,6 @@
       }
     },
     {
-      "id": "aerodrome_fill",
-      "type": "fill",
-      "source": "bonn_osm",
-      "source-layer": "aerodromes_polygon",
-      "layout": {
-        "visibility": "visible"
-      },
-      "paint": {
-        "fill-color": "rgba(179, 247, 123, 1)",
-        "fill-opacity": 0.5
-      }
-    },
-    {
-      "id": "aerodrome_line",
-      "type": "line",
-      "source": "bonn_osm",
-      "source-layer": "aerodromes_polygon",
-      "maxzoom": 24,
-      "paint": {
-        "line-color": "rgba(41, 37, 36, 1)",
-        "line-width": 6,
-        "line-offset": 0,
-        "line-blur": 2
-      }
-    },
-    {
       "id": "medical",
       "type": "fill",
       "source": "bonn_osm",
