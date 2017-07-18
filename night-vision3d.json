@@ -66,7 +66,30 @@
       "type": "fill",
       "source": "tegola-osm",
       "source-layer": "waterareas_gen0",
-      "minzoom": 0,
+      "minzoom": 7,
+      "maxzoom": 9,
+      "layout": {
+        "visibility": "visible"
+      },
+      "paint": {
+        "fill-color": "rgba(28, 31, 28, 0.75)"
+      }
+    },
+    {
+      "id": "waterareas_gen0low",
+      "type": "fill",
+      "source": "tegola-osm",
+      "source-layer": "waterareas_gen0",
+      "minzoom": 3,
+      "maxzoom": 7,
+      "filter": [
+        "all",
+        [
+          ">",
+          "area",
+          1000000000
+        ]
+      ],
       "layout": {
         "visibility": "visible"
       },
@@ -425,7 +448,7 @@
         ]
       ],
       "layout": {
-        "visibility": "visible"
+        "visibility": "none"
       },
       "paint": {
         "line-color": "rgba(141, 195, 31, 0.8)",
@@ -459,7 +482,7 @@
         ]
       ],
       "layout": {
-        "visibility": "visible",
+        "visibility": "none",
         "line-cap": "butt",
         "line-join": "miter"
       },
@@ -703,6 +726,58 @@
             ]
           ]
         }
+      }
+    },
+    {
+      "id": "admin_boundaries2",
+      "type": "line",
+      "source": "tegola-osm",
+      "source-layer": "admin_boundaries_0-2",
+      "minzoom": 0,
+      "maxzoom": 3,
+      "paint": {
+        "line-color": "rgba(239, 218, 131, 1)"
+      }
+    },
+    {
+      "id": "admin_boundaries4",
+      "type": "line",
+      "source": "tegola-osm",
+      "source-layer": "admin_boundaries_3-4",
+      "minzoom": 3,
+      "maxzoom": 5,
+      "paint": {
+        "line-color": "rgba(239, 218, 131, 1)"
+      }
+    },
+    {
+      "id": "admin_boundariesdisputed4",
+      "type": "line",
+      "source": "tegola-osm",
+      "source-layer": "admin_boundaries_disputed_3-4",
+      "minzoom": 3,
+      "maxzoom": 5,
+      "layout": {
+        "visibility": "visible"
+      },
+      "paint": {
+        "line-color": "rgba(239, 218, 131, 1)",
+        "line-dasharray": [
+          4,
+          1
+        ],
+        "line-width": 1
+      }
+    },
+    {
+      "id": "admin_boundaries6",
+      "type": "line",
+      "source": "tegola-osm",
+      "source-layer": "admin_boundaries_5-6",
+      "minzoom": 5,
+      "maxzoom": 7,
+      "paint": {
+        "line-color": "rgba(239, 218, 131, 1)"
       }
     },
     {
