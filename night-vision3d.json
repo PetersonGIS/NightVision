@@ -16,13 +16,13 @@
   "bearing": 0,
   "pitch": 0,
   "sources": {
-    "bonn_osm": {
-      "type": "vector",
-      "url": "http://tegola-cdn.terranodo.io/capabilities/osm.json?debug=true"
-    },
     "tegola-osm": {
       "type": "vector",
       "url": "http://tegola-cdn.terranodo.io/capabilities/osm.json?debug=true"
+    },
+    "mapbox": {
+      "type": "raster",
+      "url": "mapbox://mapbox.satellite"
     }
   },
   "glyphs": "https://fonts.openmaptiles.org/{fontstack}/{range}.pbf",
@@ -31,11 +31,16 @@
       "id": "background",
       "type": "background",
       "layout": {
-        "visibility": "visible"
+        "visibility": "none"
       },
       "paint": {
         "background-color": "rgba(51, 51, 51, 1)"
       }
+    },
+    {
+      "id": "satellite",
+      "type": "raster",
+      "source": "mapbox"
     },
     {
       "id": "waterareas",
