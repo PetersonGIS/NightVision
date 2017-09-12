@@ -19,11 +19,8 @@
     "tegola-osm": {
       "type": "vector",
       "url": "http://tegola-cdn.terranodo.io/capabilities/osm.json?debug=true"
-    },
-    "mapbox": {
-      "type": "raster",
-      "url": "mapbox://mapbox.satellite"
     }
+    
   },
   "glyphs": "https://fonts.openmaptiles.org/{fontstack}/{range}.pbf",
   "layers": [
@@ -37,14 +34,7 @@
         "background-color": "rgba(51, 51, 51, 1)"
       }
     },
-    {
-      "id": "satellite",
-      "type": "raster",
-      "source": "mapbox",
-      "layout": {
-        "visibility": "visible"
-      }
-    },
+    
     {
       "id": "waterareas",
       "type": "fill",
