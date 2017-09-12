@@ -9,12 +9,12 @@
     "inspect": true
   },
   "center": [
-    7.1434,
-    50.7338
+    -122.41,
+    37.76
   ],
-  "zoom": 14.11,
+  "zoom": 14.19,
   "bearing": 0,
-  "pitch": 0,
+  "pitch": 50,
   "sources": {
     "tegola-osm": {
       "type": "vector",
@@ -28,7 +28,7 @@
       "id": "background",
       "type": "background",
       "layout": {
-        "visibility": "none"
+        "visibility": "visible"
       },
       "paint": {
         "background-color": "rgba(51, 51, 51, 1)"
