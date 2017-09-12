@@ -20,7 +20,6 @@
       "type": "vector",
       "url": "http://tegola-cdn.terranodo.io/capabilities/osm.json?debug=true"
     }
-    
   },
   "glyphs": "https://fonts.openmaptiles.org/{fontstack}/{range}.pbf",
   "layers": [
@@ -34,7 +33,6 @@
         "background-color": "rgba(51, 51, 51, 1)"
       }
     },
-    
     {
       "id": "waterareas",
       "type": "fill",
@@ -1048,7 +1046,44 @@
         "visibility": "visible"
       },
       "paint": {
-        "fill-extrusion-color": "rgba(218, 218, 5, 1)",
+        "fill-extrusion-color": {
+          "property": "type",
+          "type": "categorical",
+          "stops": [
+            [
+              "",
+              "rgba(218, 218, 5, 1)"
+            ],
+            [
+              "industrial",
+              "rgba(192, 4, 63, 1)"
+            ],
+            [
+              "school",
+              "rgba(120, 39, 31, 1)"
+            ],
+            [
+              "commercial",
+              "rgba(230, 72, 8, 1)"
+            ],
+            [
+              "retail",
+              "rgba(68, 19, 73, 1)"
+            ],
+            [
+              "hospital",
+              "rgba(189, 67, 67, 1)"
+            ],
+            [
+              "house",
+              "rgba(255, 255, 255, 1)"
+            ],
+            [
+              "military",
+              "rgba(255, 255, 255, 1)"
+            ]
+          ]
+        },
         "fill-extrusion-height": 5,
         "fill-extrusion-base": 0,
         "fill-extrusion-opacity": 0.8
@@ -1072,7 +1107,44 @@
         "visibility": "visible"
       },
       "paint": {
-        "fill-extrusion-color": "rgba(218, 218, 5, 1)",
+        "fill-extrusion-color": {
+          "property": "type",
+          "type": "categorical",
+          "stops": [
+            [
+              "",
+              "rgba(218, 218, 5, 1)"
+            ],
+            [
+              "industrial",
+              "rgba(192, 4, 63, 1)"
+            ],
+            [
+              "school",
+              "rgba(120, 39, 31, 1)"
+            ],
+            [
+              "commercial",
+              "rgba(230, 72, 8, 1)"
+            ],
+            [
+              "retail",
+              "rgba(68, 19, 73, 1)"
+            ],
+            [
+              "hospital",
+              "rgba(189, 67, 67, 1)"
+            ],
+            [
+              "house",
+              "rgba(255, 255, 255, 1)"
+            ],
+            [
+              "military",
+              "rgba(255, 255, 255, 1)"
+            ]
+          ]
+        },
         "fill-extrusion-height": {
           "property": "height",
           "type": "identity"
