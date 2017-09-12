@@ -63,7 +63,7 @@
       "source": "tegola-osm",
       "source-layer": "waterareas_gen0",
       "minzoom": 7,
-      "maxzoom": 9,
+      "maxzoom": 10,
       "layout": {
         "visibility": "visible"
       },
