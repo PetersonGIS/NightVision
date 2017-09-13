@@ -31,7 +31,7 @@
       },
       "paint": {
         "background-color": "rgba(64, 99, 115, 1)",
-        "background-opacity": 0.5
+        "background-opacity": 0.9
       }
     },
     {
@@ -64,7 +64,7 @@
       "source": "tegola-osm",
       "source-layer": "landusages",
       "layout": {
-        "visibility": "none"
+        "visibility": "visible"
       },
       "paint": {
         "fill-color": {
@@ -201,6 +201,74 @@
       }
     },
     {
+      "id": "admin_states_provinces_lines_5-20",
+      "type": "line",
+      "source": "tegola-osm",
+      "source-layer": "admin_states_provinces_lines_5-20",
+      "paint": {
+        "line-color": "rgba(253, 239, 180, 1)",
+        "line-gap-width": 0,
+        "line-dasharray": [
+          6,
+          4
+        ]
+      }
+    },
+    {
+      "id": "admin_boundaries2",
+      "type": "line",
+      "source": "tegola-osm",
+      "source-layer": "admin_boundaries_0-2",
+      "minzoom": 0,
+      "maxzoom": 3,
+      "paint": {
+        "line-color": "rgba(253, 239, 180, 1)"
+      }
+    },
+    {
+      "id": "admin_boundaries4",
+      "type": "line",
+      "source": "tegola-osm",
+      "source-layer": "admin_boundaries_3-4",
+      "minzoom": 3,
+      "maxzoom": 5,
+      "paint": {
+        "line-color": "rgba(253, 239, 180, 1)",
+        "line-width": 2
+      }
+    },
+    {
+      "id": "admin_boundariesdisputed4",
+      "type": "line",
+      "source": "tegola-osm",
+      "source-layer": "admin_boundaries_disputed_3-4",
+      "minzoom": 3,
+      "maxzoom": 5,
+      "layout": {
+        "visibility": "visible"
+      },
+      "paint": {
+        "line-color": "rgba(253, 239, 180, 1)",
+        "line-dasharray": [
+          4,
+          1
+        ],
+        "line-width": 2
+      }
+    },
+    {
+      "id": "admin_boundaries6",
+      "type": "line",
+      "source": "tegola-osm",
+      "source-layer": "admin_boundaries_5-6",
+      "minzoom": 5,
+      "maxzoom": 7,
+      "paint": {
+        "line-color": "rgba(253, 239, 180, 1)",
+        "line-width": 3
+      }
+    },
+    {
       "id": "waterways",
       "type": "line",
       "source": "tegola-osm",
@@ -211,7 +279,7 @@
       "paint": {
         "line-color": "rgba(64, 99, 115, 1)",
         "line-width": 10,
-        "line-opacity": 0.5
+        "line-opacity": 0.9
       }
     },
     {
@@ -224,7 +292,7 @@
       },
       "paint": {
         "line-color": "rgba(64, 99, 115, 1)",
-        "line-opacity": 0.5
+        "line-opacity": 0.9
       }
     },
     {
@@ -237,7 +305,7 @@
       },
       "paint": {
         "line-color": "rgba(64, 99, 115, 1)",
-        "line-opacity": 0.5
+        "line-opacity": 0.9
       }
     },
     {
@@ -250,7 +318,7 @@
       },
       "paint": {
         "fill-color": "rgba(64, 99, 115, 1)",
-        "fill-opacity": 0.5
+        "fill-opacity": 0.9
       }
     },
     {
@@ -263,7 +331,7 @@
       },
       "paint": {
         "fill-color": "rgba(64, 99, 115, 1)",
-        "fill-opacity": 0.5
+        "fill-opacity": 0.9
       }
     },
     {
@@ -278,7 +346,7 @@
       },
       "paint": {
         "fill-color": "rgba(64, 99, 115, 1)",
-        "fill-opacity": 0.5
+        "fill-opacity": 0.9
       }
     },
     {
@@ -301,7 +369,7 @@
       },
       "paint": {
         "fill-color": "rgba(64, 99, 115, 1)",
-        "fill-opacity": 0.5
+        "fill-opacity": 0.9
       }
     },
     {
@@ -1275,58 +1343,6 @@
       }
     },
     {
-      "id": "admin_boundaries2",
-      "type": "line",
-      "source": "tegola-osm",
-      "source-layer": "admin_boundaries_0-2",
-      "minzoom": 0,
-      "maxzoom": 3,
-      "paint": {
-        "line-color": "rgba(239, 218, 131, 1)"
-      }
-    },
-    {
-      "id": "admin_boundaries4",
-      "type": "line",
-      "source": "tegola-osm",
-      "source-layer": "admin_boundaries_3-4",
-      "minzoom": 3,
-      "maxzoom": 5,
-      "paint": {
-        "line-color": "rgba(239, 218, 131, 1)"
-      }
-    },
-    {
-      "id": "admin_boundariesdisputed4",
-      "type": "line",
-      "source": "tegola-osm",
-      "source-layer": "admin_boundaries_disputed_3-4",
-      "minzoom": 3,
-      "maxzoom": 5,
-      "layout": {
-        "visibility": "visible"
-      },
-      "paint": {
-        "line-color": "rgba(239, 218, 131, 1)",
-        "line-dasharray": [
-          4,
-          1
-        ],
-        "line-width": 1
-      }
-    },
-    {
-      "id": "admin_boundaries6",
-      "type": "line",
-      "source": "tegola-osm",
-      "source-layer": "admin_boundaries_5-6",
-      "minzoom": 5,
-      "maxzoom": 7,
-      "paint": {
-        "line-color": "rgba(239, 218, 131, 1)"
-      }
-    },
-    {
       "id": "label_road_minor",
       "type": "symbol",
       "source": "tegola-osm",
@@ -1490,6 +1506,51 @@
       }
     },
     {
+      "id": "label_states",
+      "type": "symbol",
+      "source": "tegola-osm",
+      "source-layer": "admin_label_points_5-20",
+      "minzoom": 4,
+      "maxzoom": 24,
+      "filter": [
+        "all"
+      ],
+      "layout": {
+        "text-field": "{name}",
+        "text-font": [
+          "Open Sans Bold"
+        ],
+        "symbol-placement": "point",
+        "text-size": {
+          "stops": [
+            [
+              4,
+              8
+            ],
+            [
+              15,
+              14
+            ]
+          ]
+        },
+        "icon-allow-overlap": true,
+        "icon-optional": false,
+        "text-line-height": 1.2,
+        "visibility": "visible",
+        "text-ignore-placement": false,
+        "text-allow-overlap": false,
+        "symbol-spacing": 500,
+        "text-pitch-alignment": "auto",
+        "text-rotation-alignment": "auto",
+        "text-letter-spacing": 0.1
+      },
+      "paint": {
+        "text-halo-color": "rgba(45, 41, 32, 1)",
+        "text-halo-width": 2,
+        "text-color": "rgba(245, 218, 217, 1)"
+      }
+    },
+    {
       "id": "building_tilt_na",
       "type": "fill-extrusion",
       "source": "tegola-osm",
@@ -1620,18 +1681,6 @@
         },
         "fill-extrusion-base": 0,
         "fill-extrusion-opacity": 0.9
-      }
-    },
-    {
-      "id": "boundaries_polygon",
-      "type": "fill",
-      "source": "tegola-osm",
-      "source-layer": "boundaries_polygon",
-      "layout": {
-        "visibility": "none"
-      },
-      "paint": {
-        "fill-color": "rgba(218, 189, 189, 1)"
       }
     }
   ],
