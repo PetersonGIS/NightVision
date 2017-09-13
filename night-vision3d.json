@@ -64,7 +64,7 @@
       "source": "tegola-osm",
       "source-layer": "landusages",
       "layout": {
-        "visibility": "none"
+        "visibility": "visible"
       },
       "paint": {
         "fill-color": {
@@ -1623,15 +1623,17 @@
       }
     },
     {
-      "id": "boundaries_polygon",
-      "type": "fill",
+      "id": "label_landusages",
+      "type": "symbol",
       "source": "tegola-osm",
-      "source-layer": "boundaries_polygon",
+      "source-layer": "landusages",
       "layout": {
-        "visibility": "none"
+        "text-field": "{name}",
+        "text-size": 11
       },
       "paint": {
-        "fill-color": "rgba(218, 189, 189, 1)"
+        "text-color": "rgba(255, 255, 255, 1)",
+        "text-halo-color": "rgba(255, 255, 0, 1)"
       }
     }
   ],
