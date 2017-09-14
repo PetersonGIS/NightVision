@@ -278,7 +278,7 @@
       },
       "paint": {
         "line-color": "rgba(64, 99, 115, 1)",
-        "line-width": 10,
+        "line-width": 3,
         "line-opacity": 0.9
       }
     },
@@ -292,7 +292,19 @@
       },
       "paint": {
         "line-color": "rgba(64, 99, 115, 1)",
-        "line-opacity": 0.9
+        "line-opacity": 0.9,
+        "line-width": {
+          "stops": [
+            [
+              12,
+              1
+            ],
+            [
+              15,
+              3
+            ]
+          ]
+        }
       }
     },
     {
@@ -318,7 +330,7 @@
       },
       "paint": {
         "fill-color": "rgba(64, 99, 115, 1)",
-        "fill-opacity": 0.9
+        "fill-opacity": 1
       }
     },
     {
@@ -331,7 +343,7 @@
       },
       "paint": {
         "fill-color": "rgba(64, 99, 115, 1)",
-        "fill-opacity": 0.9
+        "fill-opacity": 1
       }
     },
     {
@@ -346,7 +358,7 @@
       },
       "paint": {
         "fill-color": "rgba(64, 99, 115, 1)",
-        "fill-opacity": 0.9
+        "fill-opacity": 1
       }
     },
     {
@@ -369,7 +381,7 @@
       },
       "paint": {
         "fill-color": "rgba(64, 99, 115, 1)",
-        "fill-opacity": 0.9
+        "fill-opacity": 1
       }
     },
     {
@@ -1646,6 +1658,56 @@
         "text-halo-color": "rgba(45, 41, 32, 1)",
         "text-halo-width": 2,
         "text-color": "rgba(245, 218, 217, 1)"
+      }
+    },
+    {
+      "id": "label_countries",
+      "type": "symbol",
+      "source": "tegola-osm",
+      "source-layer": "admin_label_points_3-20",
+      "minzoom": 4,
+      "maxzoom": 24,
+      "filter": [
+        "all",
+        [
+          "==",
+          "scalerank",
+          0
+        ]
+      ],
+      "layout": {
+        "text-field": "{name}",
+        "text-font": [
+          "Metropolis Semi Bold"
+        ],
+        "symbol-placement": "point",
+        "text-size": {
+          "stops": [
+            [
+              3,
+              20
+            ],
+            [
+              8,
+              22
+            ]
+          ]
+        },
+        "icon-allow-overlap": true,
+        "icon-optional": false,
+        "text-line-height": 1.2,
+        "visibility": "visible",
+        "text-ignore-placement": false,
+        "text-allow-overlap": false,
+        "symbol-spacing": 500,
+        "text-pitch-alignment": "auto",
+        "text-rotation-alignment": "auto",
+        "text-letter-spacing": 0.5
+      },
+      "paint": {
+        "text-halo-color": "rgba(51, 50, 47, 1)",
+        "text-halo-width": 3,
+        "text-color": "rgba(183, 171, 171, 1)"
       }
     },
     {
