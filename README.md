@@ -13,7 +13,7 @@ Note that the road labels and tilt functionality are missing from this map, whic
 
 The NightVision basemap has a bright and homogeneous color scheme to contrast with dark backgrounds and satellite backgrounds in particular. Use night-vision.json for OpenLayers or mobile and night-vision3d.json for Mapbox implementations. Use either night-vision.json or night-vision3d.json in Maputnik for building your own style with Tegola data. It's expected that the background would be replaced with a satellite layer and the transparency of the two land layers, and any other polygons as desired, would be modified to allow the satellite layer to show through. 
 
-<img align="middle" alt="TegolaNightVision" src="demo_image.jpg" />(http://www.youtube.com/watch?v=o4x5LAHuDo0 "NightVision in a Mapbox renderer")
+[![night-vision3d.json map demo in a mapbox renderer](demo.gif)](http://www.gretchenpeterson.com/live-map-mapbox-night-vision.html)
 
 ## Editing this style in Maputnik
 
