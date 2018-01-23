@@ -5,7 +5,9 @@ This is a map style that uses a publically available [Tegola](https://github.com
 
 ## Viewing the map in the browser
 - [Rendered with OpenLayers:](https://htmlpreview.github.io/?https://github.com/PetersonGIS/NightVision/blob/master/live-map.html)
+
 Note that the tilt functionality is missing from this map, which displays the night-vision.json style.
+
 - [Rendered with Mapbox:](http://www.gretchenpeterson.com/live-map-mapbox-night-vision.html) 
   This map displays the night-vision3d.json style. Test the tilt (pitch) functionality by holding ctrl while clicking and dragging. 
 
