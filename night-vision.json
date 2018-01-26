@@ -31,7 +31,7 @@
       "id": "background",
       "type": "background",
       "layout": {
-        "visibility": "none"
+        "visibility": "visible"
       },
       "paint": {
         "background-color": "rgba(64, 99, 115, 0.8)",
@@ -45,7 +45,7 @@
       "source-layer": "land",
 	  "maxzoom": 10,
       "layout": {
-        "visibility": "vsiible"
+        "visibility": "visible"
       },
       "paint": {
 		"fill-color": "rgba(51, 51, 51, 0.6)"
