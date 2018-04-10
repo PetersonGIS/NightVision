@@ -243,7 +243,8 @@
 					]
 				}
 			}
-		}, {
+		}, 
+		{
 			"id": "island",
 			"type": "fill",
 			"source": "osm",
@@ -261,7 +262,8 @@
 			"paint": {
 				"fill-color": "rgba(51, 51, 51, 1)"
 			}
-		}, {
+		}, 
+		{
 			"id": "state_lines_z10",
 			"type": "line",
 			"source": "osm",
@@ -286,7 +288,8 @@
 				],
 				"line-width": 1.5
 			}
-		}, {
+		}, 
+		{
 			"id": "state_lines_z2",
 			"type": "line",
 			"source": "osm",
