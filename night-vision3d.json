@@ -213,8 +213,8 @@
       "paint": {
         "fill-color": "rgba(64, 99, 115, 1)",
         "fill-opacity": 1
-      }
     },
+    }
       "id": "pier_line",
       "type": "line",
       "source": "osm",
